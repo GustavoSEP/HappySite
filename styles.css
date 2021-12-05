@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+
+#container {
+  border: 1px solid #000;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 90%;
+  background-image: url("images/girassol.jpg");
+  background-position: center;
+}
+
+.card {
+  height: 70%;
+  width: 80%;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+}
+
+#app {
+  background-color: #000;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  border-radius: 20px;
+}
+
